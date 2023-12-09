@@ -1,13 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/custom.css">
-</head>
-<body>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+            <nav class="navbar bg-dark text-light">
+                    <div class="flex-container">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo tagline.webp" alt="Atwills" width="100" height="70">
+                        </a>
+                    </div>
+                
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Shop</a>
+                        </li>
+                    </ul>
+            </nav>
+            <div id="carouselExample" class="carousel slide m-5">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/building photo.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/golf carts.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/shop picture.jpg" class="d-block w-100" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/new rims.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Need new tires?</h5>
+                            <p class="card-text">Our experienced technicians can mount and install your tires, make certain no other issues could affect the wear or ride of your new tires.</p>
+                            <a href="product.html" class="btn btn-primary">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                    <div class="card">
+                        <img src="images/shop under car.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Servicing your needs</h5>
+                        <p class="card-text">Learn more about our shop and family. Servicing your needs for over 30 years, come meet us!</p>
+                        <a href="about.html" class="btn btn-primary">About Us</a>
+                    </div>
+                </div>
+
+             <div class="Promotions">
+                <h5>We've Got You Covered.</h5>
+                <p>Accommodating you is our top priority. We offer a variety of promotions on cart and tire sales, as well as rentals, services and more!</p>
+                <button type="button" class="btn">PROMOTIONS</button>
+            </div>
+
+            <div class="Bookings">
+                <h5>Don't Know Whats Wrong With Your Car?</h5>
+                <p>Book a free consultation and get a quote todsy!</p>
+                <button type="button" class="btn">BOOK NOW</button>
+            </div>
+
+
+                <footer>
+                    <div class="Footer py-5">
+                    <small>ATWILLS SERVICE CENTRE 2023 © </small>
+                    </div>
+                </footer>
+        
+    </body>
+ </html>
